@@ -1,13 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+:root{
+    --CorBackground:#1A1A2C;
+    --CorMenu:#8E74E2;
+    --CorText: #E2E8F0;
+
+
+}
+
+body{
+    background-color: var(--CorBackground)
 }
 .cabecalho{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%; /* Isso garante que o cabeçalho ocupe toda a largura */
+    color:var(--CorText);
     
 }
 
@@ -35,7 +53,101 @@ nav ul li {
     flex-grow: 1;
     list-style-type: none;
 }
+
 #menu{
     align-items: flex-end;
     padding-left: 60%;
 }
+
+
+#dados{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    filter: none;
+    
+   
+}
+h1{
+    font-size: 68px;
+    color:var(--CorMenu)
+}
+#N1{
+    font-size: 24px;
+    color: var(--CorText)
+}
+#N2{
+    font-size: 32px;
+    color: var(--CorText)
+}
+
+#botoes{
+display:flex;
+justify-content: start;
+align-items: center;
+padding-top: 30px;
+
+
+}
+
+#redes button{
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: var(--CorBackground);
+    border-bottom: solid;
+    border-color: var(--CorText);
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    
+}
+
+#redes{
+    display: flex;
+}
+
+#BotCV button{
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    color: var(--CorText);
+    background-color: var(--CorBackground);
+    border-bottom: solid;
+    border-color: var(--CorText);
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+}
+
+#Bu1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#Bu2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#BotCV{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+#Info{
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 10%;
+   
+
+
+}
+
+
+
+
