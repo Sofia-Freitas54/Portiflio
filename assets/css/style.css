@@ -144,10 +144,115 @@ padding-top: 30px;
     margin-left: 120px;
     margin-top: 10%;
    
-
-
 }
 
+#Sobre {
+    font-size: 32px;
+    color: var(--CorMenu);
+    margin-bottom: 80px;
+}
 
+#About-me{
+    margin-top: 200px;
+    margin-left: 120px;
+   
+}
 
+#picture-me img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+/**************************************************************/
 
+#botoes1{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 50px;
+    margin-left: 30px;
+    
+    
+    }
+    
+    #redes1 button{
+        width: 40px;
+        height: 40px;
+        border-radius: 7px;
+        background-color: var(--CorBackground);
+        border-bottom: solid;
+        border-color: var(--CorText);
+        border-bottom-style: solid;
+        border-bottom-width: 0.5px;
+        
+    }
+    
+    #redes1{
+        display: flex;
+    }
+    
+    #BotCV1 button{
+        width: 150px;
+        height: 40px;
+        border-radius: 7px;
+        color: var(--CorText);
+        background-color: var(--CorBackground);
+        border-bottom: solid;
+        border-color: var(--CorText);
+        border-bottom-style: solid;
+        border-bottom-width: 0.5px;
+    }
+    
+    #Bu11{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    #Bu22{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    #BotCV1{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        
+    }
+
+/***************************************************************/
+#About-me{
+    display: grid;
+    grid-template-columns: 600px 600px;
+}
+
+#P2{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+#Text-me{
+    display: block;
+    color: var(--CorText);
+    line-height: 30px;
+    
+}
+#Text-me p{
+    font-size: 16px;
+}
+
+#tech{
+    margin-top: 30px;
+    color: var(--CorMenu);
+}
+
+#tech p{
+    font-size: 24px;
+}
+#tech img{
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+}
