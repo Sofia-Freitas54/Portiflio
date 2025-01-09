@@ -13,6 +13,7 @@
     --CorBackground:#1A1A2C;
     --CorMenu:#8E74E2;
     --CorText: #E2E8F0;
+    --CorDescricao: #c1c4c7;
 
 
 }
@@ -59,7 +60,9 @@ nav ul li {
     padding-left: 60%;
 }
 
-
+#menu li{
+    color: var(--CorMenu);
+}
 #dados{
     display: grid;
     justify-content: center;
@@ -261,3 +264,39 @@ padding-top: 30px;
     width: 40px;
     height: 40px;
 }
+
+
+#title{
+    font-size: 32px;
+    color: var(--CorMenu);
+    margin-left: 120px;
+    margin-top: 150px;
+}
+#description{
+    display: flex;
+    color: var(--CorDescricao);
+    font-size: 14px;
+    margin-left: 120px;
+    margin-top: 10px;
+    align-items: center;
+    
+}
+#description img{
+    margin-right: 5px;
+}
+#grade-de-projetos {
+  display: grid;
+  grid-template-columns: repeat(3, 28%);
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 70px;
+
+}
+#grade-de-projetos figure img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    
+}
+
+    
