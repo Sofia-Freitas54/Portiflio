@@ -266,11 +266,11 @@ padding-top: 30px;
 }
 
 
-#title{
+.title{
     font-size: 32px;
     color: var(--CorMenu);
     margin-left: 120px;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 #description{
     display: flex;
@@ -286,17 +286,157 @@ padding-top: 30px;
 }
 #grade-de-projetos {
   display: grid;
-  grid-template-columns: repeat(3, 28%);
+  grid-template-columns: repeat(1, 28%);
   gap: 1.5rem;
   justify-content: center;
   margin-top: 70px;
+  height: 100%;
 
 }
 #grade-de-projetos figure img{
     width: 100%;
     height: 70%;
     object-fit: cover;
-    
+    border-radius: 2%;  
+}
+figure{
+    height: 350px;
+}
+.descript-project  {
+    color: var(--CorMenu);
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+
 }
 
+.text-project {
+    color: var(--CorText);
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+a{
+    text-decoration: none;
+}
+#grade-de-projetos figure {
+    border-style: solid;
+    border-color: var(--CorDescricao);
+    border-width: 0.5px;
+    border-radius: 2%;
+}
+
+#Em-breve{
+    display: flex;
+    justify-content: center;
+    color: var(--CorMenu);
+    align-items: center;
     
+}
+#More-project{
+    font-size: 24px;
+    margin-top: 10px;        
+}
+
+#More-project img{
+    margin-right: 5px;
+    align-items:center ;
+}
+
+#grade-de-contatos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+#grade-de-contatos img{
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: var(--CorText);
+    border-width: 0.5px;
+
+}
+#conteiner-email {
+    justify-items: center;
+    justify-content: center;
+  
+}
+#conteiner-email p{
+    font-size: 18px;
+    color: var(--CorText);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#conteiner-git {
+    justify-items: center;
+    justify-content: center;
+  
+}
+#conteiner-git p{
+    font-size: 18px;
+    color: var(--CorText);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#conteiner-linkedln {
+    justify-items: center;
+    justify-content: center;
+  
+}
+#conteiner-linkedln p{
+    font-size: 18px;
+    color: var(--CorText);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#conteiner-phone {
+    justify-items: center;
+    justify-content: center;
+  
+}
+#conteiner-phone p{
+    font-size: 18px;
+    color: var(--CorText);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#conteiner-email span{
+    color: var(--CorMenu);
+    
+}
+#conteiner-git span{
+    color: var(--CorMenu);
+}
+#conteiner-linkedln span{
+    color: var(--CorMenu);
+}
+#conteiner-phone span{
+    color: var(--CorMenu);
+}
+#linha {
+    width: 100%;
+    border-bottom: 1px solid var(--CorDescricao);
+  }
+footer{
+    margin-top: 100px;
+    color: var(--CorDescricao);
+}
+footer p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#rodape  p{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#rodape  img{
+    margin-right: 5px;
+    width: 15px;
+}
